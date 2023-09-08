@@ -5,4 +5,5 @@
   gap: 16px 16px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  margin-bottom: 92px;
 }

@@ -1,5 +1,5 @@
 .place {
   display: flex;
   justify-content: space-between;
-  margin: 92px 148px 0;
+  margin: 0 148px 80px;
 }
