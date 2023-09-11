@@ -1,8 +1,25 @@
 .header__image {
   background-image: url(../../../images/lead__image.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  width: 984px;
+  background-position: center;
+  max-width: 100%;
   height: 615px;
-  margin: 0 auto;
+  margin: 0 11.5625vw;
+}
+
+@media screen and (max-width: 1050px) {
+  .header__image {
+    max-width: 928px;
+    max-height: 580px;
+    margin: 0 4.6875vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+.header__image {
+    max-width: 340px;
+    max-height: 340px;
+    margin: 0;
+  }
 }
