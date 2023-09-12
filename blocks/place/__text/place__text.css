@@ -4,14 +4,20 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 163%;
+  line-height: 1.63;
+  text-align: left;
   margin: 0;
   padding: 0;
 }
 
 @media screen and (max-width: 800px) {
   .place__text {
-    max-width: 45.833vw;
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .place__text {
+    margin-bottom: 25px;
   }
 }

@@ -6,12 +6,18 @@
   font-weight: 400;
   line-height: 12px;
   letter-spacing: 2px;
-  margin: 106px 0 12px 0;
+  margin: 0 0 12px 0;
   padding: 0;
 }
 
 @media screen and (max-width: 800px) {
   .link__heading {
     max-width: 45.833vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .link__heading {
+    margin: 0 0 12px 0;
   }
 }

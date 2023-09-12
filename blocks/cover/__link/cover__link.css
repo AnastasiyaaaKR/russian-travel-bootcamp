@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   width: calc(100vw - 96px);
-  height: 57.8125vw;
+  height: calc((100vw - 96px) * 0.625);
   margin: 0 48px 0;
   text-decoration: none;
   display: flex;
@@ -31,6 +31,8 @@
 
 @media screen and (max-width: 1050px) {
   .cover__link {
+    width: 100vw;
+    height: 62.5vw;
     margin: 0;
   }
 }

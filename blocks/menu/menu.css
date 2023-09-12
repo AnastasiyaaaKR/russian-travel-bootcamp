@@ -1,3 +1,5 @@
 .menu {
-  display: flex;
+  display: block;
+  box-sizing: border-box;
+  overflow: hidden;
 }

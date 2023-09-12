@@ -5,13 +5,13 @@
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
-  line-height: 36px;
-  margin: 0 25vw 64px;
+  line-height: 1.2;
+  margin: 0 auto 64px;
 }
 
 @media screen and (max-width: 1050px) {
   .header__subtitle {
-    margin: 0 18.75vw 56px;
+    margin: 0 auto 56px;
   }
 }
 
@@ -19,7 +19,13 @@
   .header__subtitle {
     width: 100%;
     font-size: calc(100vw * 0.0390626);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header__subtitle {
+    width: 90vw;
+    margin: 0 auto 40px;
     line-height: 1.25;
-    margin: 0 auto 7.291vw;
   }
 }

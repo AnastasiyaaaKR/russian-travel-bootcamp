@@ -14,3 +14,9 @@
     margin: 88px 3.125vw 0;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .places {
+    margin: 64px 5vw 0;
+  }
+}
