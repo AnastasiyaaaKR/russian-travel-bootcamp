@@ -2,5 +2,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 28px 46px 0 48px;
+  margin: 28px 48px 0;
+}
+
+@media screen and (max-width: 800px) {
+  .header__top {
+    margin: 28px 24px 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header__top {
+    margin: 16px 16px 0;
+  }
 }

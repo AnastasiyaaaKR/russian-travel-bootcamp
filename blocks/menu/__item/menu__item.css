@@ -1,3 +1,5 @@
-.menu__item {
-  
+@media screen and (max-width: 450px) {
+  .menu__item {
+      margin: 0 230px 32px 16px;
+  }
 }

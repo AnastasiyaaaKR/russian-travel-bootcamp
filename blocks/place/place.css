@@ -1,17 +1,13 @@
 .place {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 11.5625vw 80px;
+  display: grid;
+  gap: 40px 48px;
+  grid-template-columns: repeat(2, 1fr);
+  box-sizing: border-box;
+  margin: 0;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 450px) {
   .place {
-    margin: 0 4.6875vw 80px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .place {
-    margin: 0 3.125vw 80px;
+    grid-template-rows: repeat(5, 1fr);
   }
 }

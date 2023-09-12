@@ -6,5 +6,21 @@
   font-style: normal;
   font-weight: 900;
   line-height: 100px;
-  margin: 56px auto 32px;
+  margin: 56px 21.875vw 32px;
+}
+
+
+@media screen and (max-width: 1050px) {
+  .header__title {
+    margin: 48px 14.84375vw 32px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header__title {
+    width: 100%;
+    font-size: calc(100vw * 0.125);
+    line-height: 1.05;
+    margin: 48px 3.125vw 32px;
+  }
 }

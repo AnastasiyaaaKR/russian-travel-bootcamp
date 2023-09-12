@@ -7,3 +7,9 @@
   text-decoration: none;
   margin-right: 18px;
 }
+
+@media screen and (max-width: 450px) {
+  .menu__link {
+    margin: 64px 230px 32px 16px;
+  }
+}
