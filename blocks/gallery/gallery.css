@@ -4,7 +4,6 @@
   display: grid;
   gap: 16px 16px;
   grid-template-columns: repeat(4, auto);
-  grid-template-rows: repeat(3, auto);
   box-sizing: border-box;
 }
 
@@ -12,7 +11,6 @@
   .gallery {
     gap: 14px 14px;
     grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(4,auto);
   }
 }
 
@@ -21,7 +19,6 @@
     margin: 0 3.125vw 0;
     gap: 16px 16px;
     grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(6, auto);
   }
 }
 
@@ -29,6 +26,5 @@
   .gallery {
     gap: 16px 16px;
     grid-template-columns: repeat(1, auto);
-    grid-template-rows: repeat(12, auto);
   }
 }

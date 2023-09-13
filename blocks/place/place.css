@@ -11,18 +11,6 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 1050px) {
-  .place {
-    grid-template-columns: auto 1fr;
-  }
-}
-
-@media screen and (max-width: 850px) {
-  .place {
-    grid-template-columns: auto 1fr;
-  }
-}
-
 @media screen and (max-width: 450px) {
   .place {
     display: block;

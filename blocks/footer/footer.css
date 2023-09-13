@@ -2,14 +2,14 @@
   display: flex;
   justify-content: space-between;
   margin: 92px 48px 24px;
-  width: 92.5vw;
+  max-width: 92.5vw;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 850px) {
   .footer {
     margin: 88px 24px 24px;
-    width: 93.75vw;
+    max-width: 93.75vw;
   }
 }
 
