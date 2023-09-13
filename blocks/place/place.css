@@ -1,9 +1,10 @@
 .place {
   display: grid;
-  gap: 48px 40px;
-  grid-template-columns: 35.9375vw 1fr;
+  row-gap: 48px;
+  column-gap: 40px;
+  grid-template-columns: auto 1fr;
   grid-template-rows: repeat(1, 1fr);
-  margin-bottom: 72px;
+  margin-bottom: 82px;
 }
 
 .place:last-child {
@@ -12,19 +13,18 @@
 
 @media screen and (max-width: 1050px) {
   .place {
-    grid-template-columns: repeat(42.968vw 1fr);
+    grid-template-columns: auto 1fr;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .place {
-    grid-template-columns: 44.270vw 1fr;
+    grid-template-columns: auto 1fr;
   }
 }
 
 @media screen and (max-width: 450px) {
   .place {
-    grid-template-columns: 100vw 1fr;
     display: block;
   }
 }

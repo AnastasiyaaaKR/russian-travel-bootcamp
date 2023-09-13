@@ -8,8 +8,8 @@
   margin-right: 18px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 767px) {
   .menu__link {
-    margin: 64px 230px 32px 16px;
+    margin: 0 230px 32px 0;
   }
 }

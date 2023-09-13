@@ -10,9 +10,18 @@
   padding: 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .intro__title {
     width: 93.75vw;
     line-height: 1.05;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .intro__title {
+    width: 90vw;
+    font-size: 32px;
+    line-height: 35px;
+    line-height: 1.1;
   }
 }

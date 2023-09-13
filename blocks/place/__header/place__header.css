@@ -1,25 +1,14 @@
 .place__header {
-  max-width: 35.9375vw;
-  text-align: left;
   color: #FFF;
   font-size: 72px;
   font-style: normal;
   font-weight: 900;
   line-height: 76px;
   margin: 0;
-  display: flex;
-  align-items: end;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 850px) {
   .place__header {
-    max-width: 42.96875vw;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .place__header {
-    max-width: 44.270vw;
     font-size: 42px;
     line-height: 46px;
   }
@@ -27,10 +16,9 @@
 
 @media screen and (max-width: 400px) {
   .place__header {
-    max-width: 90vw;
     font-size: 32px;
     line-height: 35px;
-    margin: 25px 0 32px 0;
+    margin: 25px 5vw 32px;
   }
 }
 
