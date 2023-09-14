@@ -1,5 +1,5 @@
 .gallery {
-  margin: 0 3.75vw 0;
+  margin: 0 48px 0;
   padding: 0;
   display: grid;
   gap: 16px 16px;
@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 850px) {
   .gallery {
-    margin: 0 3.125vw 0;
+    margin: 0 24px 0;
     gap: 16px 16px;
     grid-template-columns: repeat(2, auto);
   }
@@ -24,6 +24,7 @@
 
 @media screen and (max-width: 450px) {
   .gallery {
+    margin: 0 16px 0;
     gap: 16px 16px;
     grid-template-columns: repeat(1, auto);
   }
