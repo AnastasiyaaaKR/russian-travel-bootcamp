@@ -6,24 +6,27 @@
   line-height: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  margin: 8px 11.5625vw 0px;
+  margin: 6px 11.5625vw 0px;
   padding: 0;
 }
 
 @media screen and (max-width: 1050px) {
   .header__caption {
-    margin: 8px 4.6875vw 0px;
+    margin-left: 4.6875vw;
+    margin-right: 4.6875vw;
   }
 }
 
 @media screen and (max-width: 850px) {
   .header__caption {
-    margin: 8px 3.125vw 0px;
+    margin-left: 3.125vw;
+    margin-right: 3.125vw;
   }
 }
 
 @media screen and (max-width: 450px) {
   .header__caption {
-    margin: 8px 5vw 0px;
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 }
