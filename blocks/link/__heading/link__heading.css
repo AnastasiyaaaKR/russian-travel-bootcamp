@@ -1,5 +1,5 @@
 .link__heading {
-  width: 456px;
+  max-width: 456px;
   color: #AAA;
   font-size: 12px;
   font-style: normal;
@@ -16,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
   .link__heading {
     margin: 0 0 12px 0;
   }

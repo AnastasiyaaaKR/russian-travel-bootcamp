@@ -2,7 +2,7 @@
   align-self: flex-end;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
   .link {
     margin: 32px 5vw 32px;
   }

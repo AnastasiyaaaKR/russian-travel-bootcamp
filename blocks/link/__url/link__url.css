@@ -1,5 +1,5 @@
 .link__url {
-  width: 456px;
+  max-width: 456px;
   color: #FFF;
   font-size: 18px;
   font-style: normal;
