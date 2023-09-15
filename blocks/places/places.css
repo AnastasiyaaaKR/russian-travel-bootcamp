@@ -1,11 +1,11 @@
 .places {
-  margin: 92px 11.5625vw 12px;
+  margin: 92px 11.5625vw 0;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 1050px) {
   .places {
-    margin: 92px 4.6875vw 12px;
+    margin: 92px 4.6875vw 0;
   }
 }
 
