@@ -25,7 +25,7 @@
 @media screen and (max-width: 450px) {
   .gallery {
     margin: 0 16px 0;
-    gap: 16px 16px;
+    gap: 12px 12px;
     grid-template-columns: repeat(1, auto);
   }
 }

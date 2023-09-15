@@ -30,5 +30,6 @@
   .place {
     grid-template-columns: 100vw 1fr;
     display: block;
+    margin-bottom: 50px;
   }
 }
