@@ -9,6 +9,12 @@
   padding-top: 6px;
 }
 
+@media screen and (max-width: 1050px) {
+  .place__header {
+    max-width: 42.96875vw;
+  }
+}
+
 @media screen and (max-width: 850px) {
   .place__header {
     max-width: 43vw;
@@ -17,8 +23,9 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .place__header {
+    max-width: 90vw;
     font-size: 32px;
     line-height: 35px;
     margin: 0 5vw 32px;
