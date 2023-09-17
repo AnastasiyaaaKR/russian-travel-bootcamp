@@ -15,9 +15,3 @@
     max-width: 45.833vw;
   }
 }
-
-@media screen and (max-width: 550px) {
-  .link__heading {
-    margin: 0 0 12px 0;
-  }
-}

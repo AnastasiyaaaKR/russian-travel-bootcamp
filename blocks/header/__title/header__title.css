@@ -21,13 +21,12 @@
     width: 100%;
     font-size: calc(100vw * 0.125);
     line-height: 1.05;
-    margin: 48px auto 32px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .header__title {
-    width: 90vw;
+    max-width: 90vw;
     font-size: 40px;
     line-height: 1.1;
     margin: 48px auto 16px;
