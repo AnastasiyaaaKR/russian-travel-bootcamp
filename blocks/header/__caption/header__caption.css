@@ -10,6 +10,13 @@
   padding: 0;
 }
 
+@media screen and (min-width: 1280px) {
+  .header__caption {
+    margin-left: 148px;
+    margin-right: 826px;
+  }
+}
+
 @media screen and (max-width: 1050px) {
   .header__caption {
     margin-left: 4.6875vw;
