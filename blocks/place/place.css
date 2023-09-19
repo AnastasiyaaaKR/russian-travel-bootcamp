@@ -11,6 +11,20 @@
   margin-bottom: 0;
 }
 
+@media screen and (min-width: 1280px) {
+  .place {
+    column-gap: 32px;
+    grid-template-columns: 460px 1fr;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .place {
+    column-gap: 32px;
+    grid-template-columns: 42.968vw 1fr;
+  }
+}
+
 @media screen and (max-width: 1050px) {
   .place {
     column-gap: 32px;

@@ -28,6 +28,13 @@
   opacity: 0.8;
 }
 
+@media screen and (min-width: 1280px) {
+  .cover__link {
+    max-width: 1184px;
+    max-height: 740px;
+  }
+}
+
 @media screen and (max-width: 1050px) {
   .cover__link {
     width: 100%;

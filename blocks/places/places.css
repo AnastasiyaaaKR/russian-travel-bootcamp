@@ -3,6 +3,13 @@
   box-sizing: border-box;
 }
 
+@media screen and (min-width: 1280px) {
+  .places {
+    margin-left: 148px;
+    margin-right: 148px;
+  }
+}
+
 @media screen and (max-width: 1050px) {
   .places {
     margin: 92px 4.6875vw 0;

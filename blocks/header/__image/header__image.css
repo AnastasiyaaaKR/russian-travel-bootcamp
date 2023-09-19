@@ -6,6 +6,15 @@
   margin: 0 11.5625vw;
 }
 
+@media screen and (min-width: 1280px) {
+  .header__image {
+    margin-left: 148px;
+    margin-right: 148px;
+    width: 984px;
+    height: 615px;
+  }
+}
+
 @media screen and (max-width: 1050px) {
   .header__image {
     height: 56.640vw;
